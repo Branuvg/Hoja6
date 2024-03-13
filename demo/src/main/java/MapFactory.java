@@ -1,6 +1,6 @@
 /** Algoritmos y Estructuras de datos -  seccion 30
  * Luis Francisco Padilla Juárez - 23663
- * Gabrein Bran Bolaños - 23590
+ * Gabriel Bran Bolaños - 23590
  * HT6, hashmaps
  * 12-03-2324
  * @return MapFactory
