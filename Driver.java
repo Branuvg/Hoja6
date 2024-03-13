@@ -119,17 +119,6 @@ public class Driver {
             }
             
             
-            //guardar datos para mas tarde
-            try (FileWriter writer = new FileWriter(database)) {
-                writer.write("name|type\n");
-    
-                for (Map.Entry<String, String> entry : map.entrySet()) {
-                    writer.write(entry.getKey() + "|" + entry.getValue() + "\n");
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-                System.out.println("Ocurrió un error al guardar en " + database + "\n");
-            }
            
         }
         }
