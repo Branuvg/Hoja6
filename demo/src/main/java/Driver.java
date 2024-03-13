@@ -8,7 +8,6 @@
 
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -27,7 +26,7 @@ public class Driver {
 
         //variables de setteo
         boolean run = true;
-        String database = "cards_desc.txt";
+        String database = "demo\\src\\main\\java\\cards_desc.txt";
         String hashmenu = "1. HashMap\n" + 
         "2. TreeMap"+"\n"+
         "3. LinkedHashMap";
